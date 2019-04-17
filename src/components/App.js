@@ -6,9 +6,8 @@ import {
 import DealList from './DealList'
 import DealDetail from './DealDetail'
 import SearchBar from './SearchBar'
-
 import { connect } from 'react-redux'
-import { fetchData, searchDeals, fetchDetail, backToDealList } from '../actions'
+import { searchDeals, fetchDetail, backToDealList } from '../actions'
 
 class App extends React.Component {
 
@@ -58,7 +57,6 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
   return {
-    fetchData: () => dispatch(fetchData()),
     searchDeals: (searchStr) => dispatch(searchDeals(searchStr)),
     fetchDetail: (dealId) => dispatch(fetchDetail(dealId)),
     backToDealList: () => dispatch(backToDealList())
