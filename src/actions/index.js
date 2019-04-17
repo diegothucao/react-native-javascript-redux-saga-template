@@ -4,7 +4,7 @@ export const fetchData = () => {
     return { type: FETCHING_DEALS_LIST } 
 }
 
-export const searchDeals = (searchStr) => {
+export const searchDeals = (searchStr = "") => {
     return { type: FETCHING_DEALS_SEARCH, payload: searchStr } 
 }
 

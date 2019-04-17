@@ -1,8 +1,14 @@
 import React from 'react'
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native'
 import { priceDisplay } from '../util/util'
+import PropTypes from 'prop-types'
 
 class DealItem extends React.Component {
+
+  static propTypes = {
+    deal: PropTypes.object.isRequired,
+    onPress: PropTypes.func.isRequired
+  }
 
   handlePress = () => {
     this.props.onPress(this.props.deal.key)

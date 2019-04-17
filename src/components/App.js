@@ -13,7 +13,7 @@ import { fetchData, searchDeals, fetchDetail, backToDealList } from '../actions'
 class App extends React.Component {
 
   componentDidMount() {
-    this.props.fetchData()
+    this.props.searchDeals()
   }
 
   render() {
@@ -27,13 +27,10 @@ class App extends React.Component {
         </View>
       )
     }
-    const dealsToDisplay = this.props.appData.data.length > 0
-      ? this.props.appData.data
-      : []
     return (
       <View style={styles.main}>
-        <SearchBar searchDeals={this.props.searchDeals} />
-        <DealList deals={dealsToDisplay} onItemPress={this.props.fetchDetail} />
+        <SearchBar searchDeals={this.props.searchDeals} searchTerm={this.props.appData.searchTerm} />
+        <DealList deals={this.props.appData.data} onItemPress={this.props.fetchDetail} />
       </View>
     )
   }

@@ -10,7 +10,13 @@ import {
 } from 'react-native'
 
 import { priceDisplay } from '../util/util'
+
 class DealDetail extends React.Component {
+
+  static propTypes = {
+    deal: PropTypes.object.isRequired,
+    onBack: PropTypes.func.isRequired
+  }
 
   openDealUrl = () => {
     Linking.openURL(this.props.deal.url)

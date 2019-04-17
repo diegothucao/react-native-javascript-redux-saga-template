@@ -11,6 +11,7 @@
     "@types/lodash.debounce": "^4.0.6",
     "@types/react": "^16.8.10",
     "@types/react-native": "^0.57.42",
+    "@types/react-redux": "^7.0.6",
     "expo-cli": "^2.14.0",
     "lodash.debounce": "^4.0.8",
     "prop-type": "^0.0.1",
