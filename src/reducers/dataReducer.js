@@ -6,9 +6,7 @@ import {
 
 const initialState = {
         data: [],
-        currentDealId: null,
         currentDeal: null,
-        dataFetched: false,
         isFetching: false,
         error: false
 }
