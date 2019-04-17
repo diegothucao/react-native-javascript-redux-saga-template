@@ -1,5 +1,5 @@
 import {
-        FETCHING_DEALS_LIST, FETCHING_DEALS_SUCCESS, FETCHING_DEALS_FAIL
+        FETCHING_DEALS_SUCCESS, FETCHING_DEALS_FAIL
         , FETCHING_DEALS_SEARCH, BACK_TO_DEAL_LIST,
         FETCHING_DEAL_DETAIL, FETCHING_DEAL_DETAIL_SUCCESS, FETCHING_DEAL_DETAIL_FAIL
 } from '../util/constants'
@@ -15,12 +15,6 @@ const initialState = {
 
 export default dataReducer = (state = initialState, action) => {
         switch (action.type) {
-                case FETCHING_DEALS_LIST:
-                        return {
-                                ...state,
-                                data: [],
-                                isFetching: true
-                        }
                 case FETCHING_DEALS_SEARCH:
                         return {
                                 ...state,
