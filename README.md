@@ -7,8 +7,6 @@ Step to run
 3. `react-native eject`
 4. `react-native run-ios` OR `react-native run-android`
 
-if you see any issue, please do not hesitate to create an issue here or can contact me via email: cao.trung.thu@gmail.com or https://www.linkedin.com/in/diegothucao/
-
 Define Actions 
 
 ```javascript 
@@ -105,6 +103,7 @@ export default dataReducer = (state = initialState, action) => {
         }
 }
 ```
+if you see any issue, please do not hesitate to create an issue here or can contact me via email: cao.trung.thu@gmail.com or https://www.linkedin.com/in/diegothucao/
 
 Give me A STAR if you see it is helpful for you.
 
