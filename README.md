@@ -2,7 +2,7 @@
 This is an essential example to build react-native app using Javascript and Redux Saga
 
 Step to run
-1. Checkout this respo
+1. Checkout this repo
 2. `yarn install` OR `npm install`
 3. `react-native eject`
 4. `react-native run-ios` OR `react-native run-android`
