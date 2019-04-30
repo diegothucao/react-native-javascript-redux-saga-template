@@ -103,9 +103,7 @@ export default dataReducer = (state = initialState, action) => {
         }
 }
 ```
-if you see any issue, please do not hesitate to create an issue here or can contact me via email: cao.trung.thu@gmail.com or https://www.linkedin.com/in/diegothucao/
-
-Give me A STAR if you see it is helpful for you.
+if you see any issue, please do not hesitate to create an issue here or can contact me via [Email](cao.trung.thu@gmail.com) or [Linkedin](https://www.linkedin.com/in/diegothucao/)
 
 Thanks
 
