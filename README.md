@@ -115,7 +115,8 @@ Post http://localhost:1111/api/login
 
 Get http://localhost:1111/api/getUser
 
-Token: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiJjYW8udHJ1bmcudGh1QGdtYWlsLmNvbSJ9.7N7vWh73ELZmqG0AxRtuzGVlB8JaAVSncmCQowP6cWQ`
+Token:
+"Authorization": `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOiJjYW8udHJ1bmcudGh1QGdtYWlsLmNvbSJ9.7N7vWh73ELZmqG0AxRtuzGVlB8JaAVSncmCQowP6cWQ`
 
 ```
 
