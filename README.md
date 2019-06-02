@@ -103,12 +103,22 @@ export default dataReducer = (state = initialState, action) => {
         }
 }
 ```
+
+Then you can request 
+```
+post http://localhost:1111/api/login
+{
+"email": "cao.trung.thu@gmail.com",
+"password": "tjhsdkafdksf"
+}
+```
+
 If you see any issue, please do not hesitate to create an issue here or can contact me via email cao.trung.thu@gmail.com or [Linkedin](https://www.linkedin.com/in/diegothucao/)
 
 Thanks
 
 references
-1. https://facebook.github.io/react-native/docs/tutorial
-2. https://github.com/jscomplete/react-native-essential-training
+1. https://www.tutorialspoint.com/go/
+2. https://golang.org
 3. https://redux-saga.js.org
-4. https://www.tutorialspoint.com/es6
+4. https://github.com/adigunhammedolalekan/go-contacts
