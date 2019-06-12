@@ -1,4 +1,5 @@
-# react-native-javascript-redux-saga-example
+# React Native with Javascript and Redux-saga
+
 This is an essential example to build react-native app using Javascript and Redux Saga
 
 Step to run
